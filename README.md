@@ -9,6 +9,11 @@ Installation
 Currently there is no formal installation procedure so just copy pyfling.py
 to whatever directory you wish to use it in.
 
+Requirements
+------------
+
+You must have the python library 'requests' which can easily be downloaded using PIP
+
 Example API usage
 -----------------
 
