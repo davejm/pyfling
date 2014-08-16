@@ -28,3 +28,10 @@ recipients = f.get_receivers(50)
 img_url = f.upload("test.jpg")
 result = f.send_image(recipients, img_url)
 ```
+
+Authentication
+-----------------
+
+You must have your unique authentication 'bearer' to use the library.
+This can be found by using a debugging proxy such as Fiddler or Wireshark,
+and looking at the headers of requests from the Fling app.
