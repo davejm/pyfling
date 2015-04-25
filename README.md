@@ -21,12 +21,11 @@ Example API usage
 
 import pyfling
 
-f = pyfling.Fling("XXX") #Replace XXX with your authentication bearer
-
-recipients = f.get_receivers(50)
+f = pyfling.Fling("XXXXXXXX")
 
 img_url = f.upload("test.jpg")
-result = f.send_image(recipients, img_url)
+
+result = f.send_image(img_url)
 ```
 
 Authentication
