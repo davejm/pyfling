@@ -1,9 +1,10 @@
-"""Sends a picture to a list of recipients"""
+"""Send a picture Fling"""
 import pyfling
 
-f = pyfling.Fling("XXX")
-
-recipients = f.get_receivers(50)
+f = pyfling.Fling("XXXXXXXX")
 
 img_url = f.upload("test.jpg")
-result = f.send_image(recipients, img_url)
+#img_url = "http://lorempixel.com/640/1138"
+
+result = f.send_image(img_url)
+print(result)
