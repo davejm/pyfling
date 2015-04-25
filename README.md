@@ -21,6 +21,7 @@ Example API usage
 
 import pyfling
 
+# Replace XXXXXXXX with your authentication bearer token
 f = pyfling.Fling("XXXXXXXX")
 
 img_url = f.upload("test.jpg")
